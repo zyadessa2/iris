@@ -59,7 +59,7 @@ const items = [
 
 const About = () => {
   return (
-    <div id="about" className="relative flex flex-col h-[95rem] w-full bg-black">
+    <div id="about" className="relative flex flex-col h-[105rem] lg:h-[92rem]  w-full bg-black">
       <div
         className={cn(
           "absolute inset-0",
@@ -73,12 +73,12 @@ const About = () => {
       whileInView={{ opacity: 1 , y: 0 }}
       
       transition={{ duration: 1.5 }}
-      className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-600 to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight mt-10">
+      className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-600 to-white text-5xl md:text-5xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight mt-10">
         Who We Are ?
       </motion.h2>
       <TextGenerateEffectDemo words={words} />
       <MissionVision />
-      <DraggableCardContainer className="relative my-20 flex min-h-screen w-full items-center justify-center overflow-clip">
+      <DraggableCardContainer className="relative mt-96 py-32 lg:mt-32 md:mt-20  flex min-h-screen w-full items-center justify-center overflow-clip">
         <p className="absolute top-1/2 mx-auto max-w-sm -translate-y-3/4 text-center text-2xl font-black text-neutral-400 md:text-4xl dark:text-neutral-800">
         The price of greatness is responsibility over each of your thoughts.
         </p>
@@ -91,7 +91,7 @@ const About = () => {
               width={320}
               height={320}
             />
-            <h3 className="mt-4 text-center text-2xl font-bold text-neutral-700 dark:text-neutral-300">
+            <h3 className="mt-4 hidden lg:block text-center text-2xl font-bold text-neutral-700 dark:text-neutral-300">
               {item.title}
             </h3>
           </DraggableCardBody>

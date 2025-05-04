@@ -11,5 +11,5 @@ interface TextGenerateEffectDemoProps {
 }
 
 export function TextGenerateEffectDemo({ words }: TextGenerateEffectDemoProps) {
-  return <TextGenerateEffect className="max-w-5xl mx-auto text-sm md:text-lg text-neutral-200 text-center" words={words} />;
+  return <TextGenerateEffect className="" words={words} />;
 }

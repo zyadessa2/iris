@@ -42,7 +42,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         initial={{ opacity: 0 , y: 50 }}
         whileInView={{ opacity: 1 , y: 0 }}
         transition={{ duration: 0.5 }}
-        className="text-lg md:text-4xl mb-4 text-white max-w-4xl">
+        className="text-2xl md:text-4xl mb-4 text-white max-w-4xl">
         Past Events & Milestones
 
         </motion.h2>
@@ -51,7 +51,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         whileInView={{ opacity: 1 , y: 0 }}
         transition={{ duration: 1 }}
         
-        className="text-neutral-300 text-sm md:text-base max-w-xl">
+        className="text-neutral-300 text-md md:text-base max-w-xl">
         Over the years, we&apos;ve been crafting impactful conferences, exhibitions, and corporate events that leave lasting impressions. Here&apos;s a glimpse into the key moments and achievements that have shaped our journey.
         </motion.p>
       </div>

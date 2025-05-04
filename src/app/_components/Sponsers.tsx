@@ -30,7 +30,7 @@ const Sponsers = () => {
     return (
         <div>
             <div className="h-[55rem] py-32 w-full bg-black flex flex-col items-center justify-center overflow-hidden ">
-      <h1 className="md:text-6xl text-2xl lg:text-8xl font-bold text-center text-white relative z-20">
+      <h1 className="md:text-6xl text-6xl lg:text-8xl font-bold text-center text-white relative z-20">
       Our Clients
       </h1>
       <div className="w-[40rem] h-40 relative">

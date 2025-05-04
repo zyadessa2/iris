@@ -61,7 +61,7 @@ const MissionVision = () => {
       />
       <div className="pointer-events-none absolute inset-0 flex items-center justify-center [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] bg-black"></div>
 
-      <div className="w-full py-32 mx-auto flex  items-center justify-center gap-8 px-4 lg:px-0">
+      <div className="w-full py-32 mx-auto flex flex-col lg:flex-row items-center justify-center gap-8 px-4 lg:px-0">
         <Card
           title="Our Mission"
           description="To distinguish ourselves in the event management market by managing, producing and supporting outstanding events that exceed customers increasing expectations in terms of value, service and innovation."

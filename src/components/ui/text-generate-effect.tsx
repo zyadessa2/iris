@@ -15,7 +15,7 @@ export const TextGenerateEffect = ({
   duration?: number;
 }) => {
   const [scope, animate] = useAnimate();
-  let wordsArray = words.split(" ");
+  const wordsArray = words.split(" ");
   useEffect(() => {
     animate(
       "span",
@@ -53,7 +53,7 @@ export const TextGenerateEffect = ({
   return (
     <div className={cn("font-normal", className)}>
       <div className="mt-4">
-        <div className=" text-white  text-2xl leading-snug tracking-wide">
+        <div className=" text-white max-w-5xl mx-auto text-md font-normal md:text-lg md:font-bold lg:text-lg lg:font-bold text-center  leading-snug tracking-wide">
           {renderWords()}
         </div>
       </div>
