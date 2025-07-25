@@ -4,23 +4,23 @@ import React from 'react'
 
 const sponsors = [
     {
-        image: "/images/Iris Excellence.png",
+        image: "/images/Irislogo.png",
         name: "Sponsor 1",
       },
       {
-        image: "/images/Iris Excellence.png",
+        image: "/images/Irislogo.png",
         name: "Sponsor 2",
       },
       {
-        image: "/images/Iris Excellence.png",
+        image: "/images/Irislogo.png",
         name: "Sponsor 3",
       },
       {
-        image: "/images/Iris Excellence.png",
+        image: "/images/Irislogo.png",
         name: "Sponsor 4",
       },
       {
-        image: "/images/Iris Excellence.png",
+        image: "/images/Irislogo.png",
         name: "Sponsor 5",
       },
   ];
